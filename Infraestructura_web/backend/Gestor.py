@@ -10,3 +10,12 @@ class Gestor:
         self.recursos = []
         self.categorias = []
         self.clientes = []
+
+    def agregar_recurso(self, codigo, nombre, abreviatura, metrica, tipo, valorxhora):
+        pass
+
+    def agregar_categoria(self, codigo, nombre, descripcion, cargatrabajo):
+        pass
+
+    def agregar_clientes(self, nit, nombre, usuario, clave, correo):
+        pass
